@@ -6,13 +6,13 @@ body {
     margin: auto;
     }
 .header {
-    background-color: #AED6F1;
-    height: 100px;
+    background-color: #f5b158;
+    overflow: hidden;
     width: 100%;
     }
 .header .logo {
     float: left;
-    width: 15%;
+    width: 10%;
     }
 .header .logo img {
     margin: 5px 15px 5px 15px;
@@ -25,8 +25,15 @@ body {
     }
 .header .nav h1 {
     margin: 5px;
-    font-family: sans-serif
+    font-family: Arial, Helvetica, sans-serif
     }
+.header .nav h2 {
+    font-family: Arial, Helvetica, sans-serif
+        }
+.header .nav h3{
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
 .header .nav ul {
     float: right;
      margin-right: 15px;
@@ -53,19 +60,21 @@ body {
     background-color: #DCDCDC;
     float: left;
     width: 100%
+    
     }
 .sidebar {
-    width: 30%;
+    width: 15%;
     float: left;
     }
 .content {
-    background-color: #EEEEEE;
-    width: 70%;
+    background-color: #DCDCDC;
+    width: 85%;
     float: right;
+    padding: 10px;
     }
 .footer {
-    background-color: rgb(2, 2, 39);
+    background-color: rgb(53, 53, 61);
     clear: both;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     }
